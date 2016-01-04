@@ -1,0 +1,7 @@
+---
+applications:
+- name: apm-eureka-server
+  host: amp-eureka-server-${random-word}
+  memory: 1G
+  instances: 2
+  path: target/apm-eureka-server-2.1.0-SNAPSHOT.jar
